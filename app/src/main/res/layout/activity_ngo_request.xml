@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".NGODashboardActivity">
+
+    <EditText
+        android:id="@+id/fundEditText"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:padding="4dp"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
+        android:hint="write your request for fund"
+        android:background="@drawable/edittext_background"
+        android:textSize="20sp"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressbar"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnRequest"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_background"
+        android:layout_below="@+id/fundEditText"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:layout_marginTop="8dp"
+        android:text="Request" />
+
+</RelativeLayout>

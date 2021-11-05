@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "129813157364",
+    "project_id": "charity-management-syste-7bcea",
+    "storage_bucket": "charity-management-syste-7bcea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129813157364:android:ff3e08dba7586126c255a1",
+        "android_client_info": {
+          "package_name": "com.example.charitymanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129813157364-8eb0uhirl171onp23vu95p02kveqn2e1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAApdvg22uBAGComtPkZ9tr1RCxE9ZQTCQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "129813157364-8eb0uhirl171onp23vu95p02kveqn2e1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
